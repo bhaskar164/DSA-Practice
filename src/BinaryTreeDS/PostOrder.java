@@ -1,17 +1,13 @@
 package BinaryTreeDS;
 
-
-
-// Tree Traversals are, inorder, preOrder, postOrder
-public class PreOrder implements TreeTraversal{
-
+public class PostOrder implements TreeTraversal{
     @Override
     public void treverse(TreeNode node) {
         if(node == null){
             return;
         }
-        System.out.println(node.val);
         treverse(node.left);
         treverse(node.right);
+        System.out.println(node.val);
     }
 }

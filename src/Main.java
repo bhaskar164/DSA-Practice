@@ -21,5 +21,9 @@ public class Main {
         System.out.println(separator);
         TreeTraversal levelOrder = new levelOrderTraversal();
         levelOrder.treverse(root);
+
+        System.out.println(separator);
+        TreeTraversal preOrderIterative = new PreOrderIterative();
+        preOrderIterative.treverse(root);
     }
 }

@@ -2,7 +2,7 @@ package BinaryTreeDS;
 
 
 
-// Tree Traversals are, inorder, preOrder, postOrder
+// PreOrder=> root, left, right
 public class PreOrder implements TreeTraversal{
 
     @Override
